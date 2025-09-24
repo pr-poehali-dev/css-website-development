@@ -64,6 +64,9 @@ const Index = () => {
               <span className="text-[#32CD32]">A</span>
               <span className="text-[#4169E1]">B</span>
             </h1>
+            <p className="text-white/80 text-lg font-medium mt-2 drop-shadow-lg">
+              Платформа для обучения Arduino
+            </p>
           </div>
 
           {/* Login Form */}
