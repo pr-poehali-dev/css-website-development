@@ -8,21 +8,21 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#00979D] via-[#0FA0CE] to-[#FF6B35] relative overflow-hidden">
-      {/* Background parrot silhouettes */}
-      <div className="absolute top-10 left-10 opacity-10 transform scale-75">
-        <svg width="200" height="300" viewBox="0 0 200 300" className="text-white fill-current">
-          <path d="M50 50C30 30 20 60 30 80C25 85 20 95 30 100C20 110 25 125 40 120L45 130C50 140 60 145 70 140L80 150C90 160 110 155 120 145C130 135 125 120 115 115C125 110 130 95 120 85C130 75 125 60 110 65C115 50 105 40 90 45C85 35 70 30 60 40C55 35 45 40 50 50Z"/>
-          <circle cx="75" cy="85" r="8" className="fill-black"/>
-          <path d="M85 95C90 100 95 98 92 105C88 108 85 105 85 95Z" className="fill-orange-400"/>
-        </svg>
+      {/* Background tech elements */}
+      <div className="absolute top-10 left-10 opacity-12 transform scale-75">
+        <Icon name="Lightbulb" size={80} className="text-white" />
       </div>
       
-      <div className="absolute top-20 right-20 opacity-8 transform scale-90 rotate-45">
-        <svg width="180" height="280" viewBox="0 0 180 280" className="text-white fill-current">
-          <path d="M45 45C25 25 15 55 25 75C20 80 15 90 25 95C15 105 20 120 35 115L40 125C45 135 55 140 65 135L75 145C85 155 105 150 115 140C125 130 120 115 110 110C120 105 125 90 115 80C125 70 120 55 105 60C110 45 100 35 85 40C80 30 65 25 55 35C50 30 40 35 45 45Z"/>
-          <circle cx="70" cy="80" r="7" className="fill-black"/>
-          <path d="M80 90C85 95 90 93 87 100C83 103 80 100 80 90Z" className="fill-orange-400"/>
-        </svg>
+      <div className="absolute top-20 right-20 opacity-10 transform scale-90 rotate-12">
+        <Icon name="Cpu" size={75} className="text-white" />
+      </div>
+      
+      <div className="absolute bottom-32 left-16 opacity-8 transform rotate-45">
+        <Icon name="Microchip" size={60} className="text-white" />
+      </div>
+      
+      <div className="absolute top-1/2 right-12 opacity-10 transform -rotate-12">
+        <Icon name="Lightbulb" size={70} className="text-white" />
       </div>
 
       {/* Arduino components as background images */}
