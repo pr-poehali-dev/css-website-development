@@ -56,15 +56,17 @@ const Index = () => {
       {/* Main content */}
       <div className="flex items-center justify-center min-h-screen p-4">
         <div className="w-full max-w-md">
-          {/* Logo */}
+          {/* Site Title */}
           <div className="text-center mb-8 animate-fade-in">
-            <div className="inline-flex items-center justify-center mb-4 bg-white/20 backdrop-blur-sm rounded-2xl p-6 border border-white/30 shadow-2xl">
-              <img 
-                src="https://cdn.poehali.dev/files/2aa1abeb-d55a-41cd-b68d-e559479bf141.png" 
-                alt="ArLab Logo" 
-                className="w-44 h-28 object-contain filter brightness-110 contrast-110"
-              />
-            </div>
+            <h1 className="text-7xl font-black text-white tracking-tight drop-shadow-2xl">
+              <span className="text-[#FF6B35]">AR</span>
+              <span className="text-[#FFD700]">L</span>
+              <span className="text-[#32CD32]">A</span>
+              <span className="text-[#4169E1]">B</span>
+            </h1>
+            <p className="text-white/80 text-lg font-medium mt-2 drop-shadow-lg">
+              Arduino Development Platform
+            </p>
           </div>
 
           {/* Login Form */}
