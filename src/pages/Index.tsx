@@ -46,8 +46,12 @@ const Index = () => {
       <div className="absolute top-1/4 left-1/6 opacity-8 animate-pulse">
         <Icon name="Cpu" size={40} className="text-white" />
       </div>
-      <div className="absolute top-1/3 right-1/5 opacity-8 animate-pulse delay-1000">
-        <Icon name="Zap" size={36} className="text-white" />
+      <div className="absolute top-1/3 right-1/5 opacity-15 animate-pulse delay-1000">
+        <img 
+          src="https://cdn.poehali.dev/files/3b987cca-af70-4b2d-ae67-50ba54e1c626.png" 
+          alt="Lightbulb" 
+          className="w-12 h-12 object-contain"
+        />
       </div>
       <div className="absolute bottom-1/3 left-1/4 opacity-8 animate-pulse delay-2000">
         <Icon name="CircuitBoard" size={38} className="text-white" />
