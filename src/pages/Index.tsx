@@ -58,19 +58,12 @@ const Index = () => {
         <div className="w-full max-w-md">
           {/* Logo */}
           <div className="text-center mb-8 animate-fade-in">
-            <div className="inline-flex items-center mb-4">
-              <div className="text-6xl font-black text-white tracking-tight">
-                <span className="text-[#FF6B35]">AR</span>
-                <span className="text-[#00979D]">L</span>
-                <span className="text-[#2C3E50]">A</span>
-                <span className="text-white">B</span>
-              </div>
-            </div>
-            <div className="w-12 h-12 bg-black rounded-full mx-auto mb-2 flex items-center justify-center">
-              <div className="w-8 h-8 bg-white rounded-full relative">
-                <div className="absolute top-1 left-2 w-2 h-2 bg-black rounded-full"></div>
-                <div className="absolute bottom-1 right-1 w-3 h-1 bg-black rounded"></div>
-              </div>
+            <div className="inline-flex items-center justify-center mb-4">
+              <img 
+                src="https://cdn.poehali.dev/files/2aa1abeb-d55a-41cd-b68d-e559479bf141.png" 
+                alt="ArLab Logo" 
+                className="w-48 h-32 object-contain drop-shadow-2xl"
+              />
             </div>
           </div>
 
